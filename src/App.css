@@ -5,9 +5,23 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    margin: 0 auto;
 }
+.exp {
+    display: flex;
+    margin: 0 auto;
+}
+.left-content {
+    width: 60%;
+}
+
+.right-content {
+    width: 20%;
+    flex-wrap: true;
+}
+
 .display {
-    margin-top: 25px;
+    margin: 0 auto;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -19,4 +33,33 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+
+  .number-button {
+    width: 75px;
+    border-radius: 50%;
+    height: 75px;
+    margin: 1rem;
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+  }
+  .special {
+    width: 75px;
+    border-radius: 50%;
+    height: 75px;
+    margin: 1rem;
+    background-color: lightblue;
+    color: white;
+    font-size: 2rem; 
+  }
+  .operators {
+    width: 75px;
+    border-radius: 50%;
+    height: 75px;
+    margin: 1rem;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 2rem;
+
   }
