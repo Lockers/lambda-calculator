@@ -1,4 +1,6 @@
 .container {
+    max-width: 800px;
+    margin: 0 auto;
     background-color: #c00025;
     width: 100%;
     max-width: 550px;
@@ -6,6 +8,25 @@
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+
+.App {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+.button, .specials {
+    width: 65%;
+}
+.operators{
+    align-items: right;
+    width: 25%;
+}
+
 .display {
     margin-top: 25px;
     height: 100px;
@@ -19,4 +40,4 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+}
